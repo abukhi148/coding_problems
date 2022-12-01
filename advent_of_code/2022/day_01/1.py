@@ -1,4 +1,4 @@
-from aocd import get_data, submit
+from aocd import submit
 from aocd.models import Puzzle
 
 p = Puzzle(day=1, year=2022)
@@ -9,12 +9,8 @@ def p1(data):
 
 
 def p2(data):
-    arr = [sum(map(int, i.split())) for i in data.split("\n\n")]
-    return (
-        arr.pop(arr.index(max(arr)))
-        + arr.pop(arr.index(max(arr)))
-        + arr.pop(arr.index(max(arr)))
-    )
+    arr = sorted([sum(map(int, i.split())) for i in data.split("\n\n")])
+    return sum(arr[-3:])
 
 
 submit(p1(p.input_data), part="a", day=1, year=2022)
