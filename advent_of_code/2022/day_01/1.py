@@ -13,5 +13,6 @@ def p2(data):
     return sum(arr[-3:])
 
 
-submit(p1(p.input_data), part="a", day=1, year=2022)
-submit(p2(p.input_data), part="b", day=1, year=2022)
+#submit(p1(p.input_data), part="a", day=1, year=2022)
+#submit(p2(p.input_data), part="b", day=1, year=2022)
+print(p.title)
