@@ -148,3 +148,4 @@ cython_debug/
 
 *.id
 *.ipynb
+*.python-version
