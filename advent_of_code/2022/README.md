@@ -12,3 +12,4 @@ My solutions for [AoC 2022](https://adventofcode.com/2022/) in Python.
 | 6    | Tuning Trouble          | [day06.py](day06/day06.py) | ⭐⭐    | kinda easy?!                 |
 | 7    | No Space Left On Device | [day07.py](day07/day07.py) |       | too harddd!!                 |
 | 8    | Treetop Tree House      | [day08.py](day08/day08.py) | ⭐⭐    | easy, but needs improvements |
+| 9    | Rope Bridge             | [day09.py](day09/day09.py) | ⭐     | p2!!!!!                      |
