@@ -1,0 +1,14 @@
+Value monkey (\d)
+Value st_items (.*)
+Value op (.*)
+Value test (\d+)
+Value if_true (\d+)
+Value if_false (\d+)
+
+Start
+  ^Monkey ${monkey}:
+  ^\s+Starting items: ${st_items}
+  ^\s+ Operation: new = old ${op}
+  ^\s+Test: divisible by ${test}
+  ^\s+If true: throw to monkey ${if_true}
+  ^\s+If false: throw to monkey ${if_false} -> Record

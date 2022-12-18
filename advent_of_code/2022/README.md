@@ -14,3 +14,4 @@ My solutions for [AoC 2022](https://adventofcode.com/2022/) in Python.
 | 8    | Treetop Tree House      | [day08.py](day08/day08.py)    | ⭐⭐    | easy, but needs improvements |
 | 9    | Rope Bridge             | [day09.py](day09/day09.py)    | ⭐     | p2!!!!!                      |
 | 10   | Cathode-Ray Tube        | [day010.py](day010/day010.py) | ⭐     | p2!!!!!                      |
+| 11   | Monkey in the Middle    | [day011.py](day011/day011.py) | ⭐     | Modular arithmetic?!         |
